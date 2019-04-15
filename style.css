@@ -40,8 +40,8 @@ header {
 header ul {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 50px;
-    margin-left: 36%;
     list-style: none;
     -ms-list-style: none;
 }
@@ -299,6 +299,18 @@ footer {
 
 .footer__social ul li:last-child {
     list-style-image: url(./img/inst.png);
+}
+@media (max-width:800px){
+    .gallery a {
+        margin-left: 20%;
+    }
+    .order{
+        width: 60%;
+        margin-left: 13%;
+    }
+    .payment-and-delivery li{
+        margin-left: 8vw;
+    }
 }
 
 @media (max-width:640px) {
